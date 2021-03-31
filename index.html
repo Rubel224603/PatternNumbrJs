@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>pattern of js numbr</title>
+	<link rel="icon" href="me.jpg"/>
+</head>
+<body>
+	<h1>Print Number Pattern</h1>
+	<input type="number" id="inputNumbear" placeholder="enter your Number"/>
+	<input type="button" id="btn" value="check"/>
+	
+	<script type="text/javascript">
+
+	 document.querySelector("#btn").addEventListener("click",function(){
+		var n=Number(document.querySelector("#inputNumbear").value);
+		
+		for(i=1;i<=n; i++){
+			for(j=1;j<=i;j++){
+				document.write(i+" ");
+			
+			}
+		
+			document.write("<br />");
+		}
+		
+		
+		
+		
+	
+	 
+	 });
+		
+	</script>
+
+</body>
+
+</html>
